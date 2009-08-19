@@ -15,6 +15,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  GL-devel
 BuildRequires:  libmesaglu
 BuildRequires:	ncurses-devel
+BuildRequires:	tcsh
 BuildRequires:	singular
 
 %description
