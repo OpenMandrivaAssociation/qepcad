@@ -13,7 +13,7 @@ URL:		http://www.usna.edu/Users/cs/qepcad/B/QEPCAD.html
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  GL-devel
-BuildRequires:  devel(libGLU)
+BuildRequires:  libmesaglu
 BuildRequires:	ncurses-devel
 BuildRequires:	singular
 
