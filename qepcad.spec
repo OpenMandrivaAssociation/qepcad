@@ -50,9 +50,10 @@ pushd $qe
     perl -pi -e 's|#(SINGULAR)|$1|;' default.qepcadrc
     gmake
     for $dir in extensions cad2d plot2d; do
-    pushd $dir
-	make
-    popd
+	pushd $dir
+	    make
+	popd
+    done
 popd
 
 %install
