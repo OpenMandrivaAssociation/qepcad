@@ -18,6 +18,9 @@ BuildRequires:	ncurses-devel
 BuildRequires:	tcsh
 BuildRequires:	singular
 
+# FIXME no prebuild Makefile/etc files for x86_64
+ExcludeArch:	x86_64
+
 %description
 QEPCAD is an implementation of quantifier elimination by partial cylindrical
 algebraic decomposition due orginally to Hoon Hong, and subsequently added
