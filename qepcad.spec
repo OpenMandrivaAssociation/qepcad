@@ -49,7 +49,7 @@ export qe=`pwd`/qesource
 pushd $qe
     perl -pi -e 's|#(SINGULAR)|$1|;' default.qepcadrc
     gmake
-    for $dir in extensions cad2d plot2d; do
+    for dir in extensions cad2d plot2d; do
 	pushd $dir
 	    make
 	popd
