@@ -14,6 +14,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  GL-devel
 BuildRequires:  mesaglu-devel
+BuildRequires:  mesaglut-devel
 BuildRequires:	ncurses-devel
 BuildRequires:	readline-devel
 BuildRequires:	tcsh
