@@ -6,7 +6,7 @@ Group:		Sciences/Mathematics
 License:	BSD
 Summary:	Quantifier Elimination by Partial Cylindrical Algebraic Decomposition
 Version:	B1.50
-Release:	%mkrel 1
+Release:	%mkrel 2
 Source0:	http://www.usna.edu/Users/cs/qepcad/INSTALL/qepcad-B.1.53.tar.gz
 Source1:	http://www.usna.edu/Users/cs/qepcad/INSTALL/saclib2.2.1.tar.gz
 URL:		http://www.usna.edu/Users/cs/qepcad/B/QEPCAD.html
@@ -65,6 +65,7 @@ pushd qesource/source
     cp -f %{name} %{buildroot}%{qepcaddir}/bin
     cp -f %{name}.help  %{buildroot}%{qepcaddir}/bin
     cp -f ../plot2d/ADJ2D_plot  %{buildroot}%{qepcaddir}/bin
+    chmod a+r ../default.qepcadrc
     cp -f ../default.qepcadrc %{buildroot}%{qepcaddir}
 popd
 
