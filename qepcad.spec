@@ -9,7 +9,7 @@ Version:	B1.50
 Release:	%mkrel 2
 Source0:	http://www.usna.edu/Users/cs/qepcad/INSTALL/qepcad-B.1.53.tar.gz
 Source1:	http://www.usna.edu/Users/cs/qepcad/INSTALL/saclib2.2.1.tar.gz
-URL:		http://www.usna.edu/Users/cs/qepcad/B/QEPCAD.html
+URL:		https://www.usna.edu/Users/cs/qepcad/B/QEPCAD.html
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  GL-devel
